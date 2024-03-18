@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logoAlura" src="/Imagens/LogoAlura.png" alt="Logo da alura">
+    </header>
+
+    <main class="main">
+        <section class="texto-botoes">
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+        
+            <div class="Informação">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="botoes">
+                <button onclick="btnCriptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="btnDescriptografar()" class="btn-descriptografar">Descriptografar</button>
+
+            </div>
+        </section>
+
+        <section>
+            <textarea id="resultado" class="mensagem" cols="20" rows="10"></textarea>
+            <button onclick="btnCopiar()" class="btn-copiar">Copiar</button>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer class="rodapé"> Desenvolvido por Rafinha!</footer>
+    
+</body>
+</html>
